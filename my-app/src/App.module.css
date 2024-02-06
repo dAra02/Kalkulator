@@ -1,0 +1,51 @@
+.container {
+	display: flex;
+	width: 250px;
+	margin: 250px auto 0;
+	border: 5px solid grey;
+	border-radius: 20px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background: rgb(78, 68, 68);
+	box-shadow: 8px 7px 5px rgb(102 93 93);
+}
+
+.display {
+	height: 50px;
+	width: 230px;
+	background: rgb(175 211 176);
+	color: black;
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 4px;
+	border-radius: 10px;
+	border: none;
+}
+
+.display_otvet {
+	color: blue;
+	height: 50px;
+	width: 230px;
+	background: rgb(175 211 176);
+	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 4px;
+	border-radius: 10px;
+	border: none;
+}
+
+.button {
+	border: none;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+	cursor: pointer;
+	background: #9fb7d3;
+	color: black;
+	font-size: 20px;
+}
